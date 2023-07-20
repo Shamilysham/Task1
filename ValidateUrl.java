@@ -32,8 +32,10 @@ public class ValidateUrl {
 	}
 	}
 	public static void main(String[] args) {
-		validateurl("https://www.geeksforgeeks.org/");
-
+	//reads the input from command line argument
+        String enteredUrl=Arrays.toString(args);
+	}
+        
 	}
 
 }
